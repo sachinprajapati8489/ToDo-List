@@ -1,64 +1,41 @@
-.container {
-  max-width: 450px;
+/* CSS for Tic-Tac-Toe component */
+
+.text-center {
+  text-align: center;
+  color: #ff0000;
+}
+
+table {
+  background-color: aqua;
   margin: 0 auto;
-  padding: 20px;
-  background-color: #f2f2f2;
-  border-radius: 10px;
+  border-collapse: collapse;
 }
 
-.header {
-  font-size: 30px;
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
   font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.List-heading {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-input[type='text'] {
-  width: 80%;
-  padding: 10px;
-  margin-bottom: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-button {
-  display: flex;
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 4px;
   cursor: pointer;
-  margin-right: 10px;
+  transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: #45a049;
+td:hover {
+  background-color: #f2f2f2;
 }
 
-.listData {
-  margin-bottom: 5px;
+td.X {
+  color: #ff0000; /* Red */
 }
 
-.btn-position {
-  margin-top: 5px;
+td.O {
+  color: #0000ff; /* Blue */
 }
 
-.btn-position button {
-  background-color: #f44336;
-  display: inline-block;
-  margin-bottom: 10px;
+td.winner {
+  background-color: #ffcc00; /* Orange */
 }
 
-.btn-position button:hover {
-  background-color: #d32f2f;
-}
-
-p {
-  margin: 0;
-}

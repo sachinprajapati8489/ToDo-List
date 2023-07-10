@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import TodoList from './TodoList';
+import Tictactoe from './Tictactoe';
 
 function App(){
   return(
     <div className='app'>
-      <TodoList/>
+      <Tictactoe/>
     </div>
   )
 }
